@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Rpl B</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Website Resmi XI RPL B - Membangun masa depan dengan teknologi.">
+    <meta property="og:image" content="assets/tentang-kami.jpg">
+    <link rel="icon" href="assets/logo.jpg" type="image/x-icon">
+</head>
+<body>
+                <!-- Animasi Loading -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+                <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">XI <span>RPL B</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#beranda" onclick="toggleMenu()">Beranda</a></li>
+                <li><a href="#tentang" onclick="toggleMenu()">Tentang</a></li>
+                <li><a href="#struktur" onclick="toggleMenu()">Struktur</a></li>
+                <li><a href="#album" onclick="toggleMenu()">Album</a></li>
+                <li><a href="#anggota" onclick="toggleMenu()">Anggota</a></li>
+                <li><a href="#footer" onclick="toggleMenu()">Sosial Media</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+        </div>
+    </nav>
+
+               <!-- Beranda -->
+    <section id="beranda" class="hero">
+        <img src="" alt="">
+        <div class="hero-content">
+        <h1>
+            <span class="welcome-text">Selamat Datang</span>
+            <span class="class-text">di Kelas XI RPL B</span>
+       </h1>
+            <p id="typewriter"></p>
+            <a href="#tentang" class="btn">Lanjut</a>
+        </div>
+    </section>
+
+                <!-- Tentang -->
+    <section id="tentang" class="content-section">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <div class="underline"></div>
+            <div class="about-image-container">
+                <img src="assets/tentang-kami.jpg" alt="Foto Kelas Kami" class="about-img">
+            </div>
+            <p>Kami kelas XI RPL B adalah komunitas siswa Rekayasa Perangkat Lunak yang
+               berdedikasi untuk mengembangkan kemampuan pemrograman dan inovasi teknologi.</p><br>
+            <p>Dibentuk pada tahun 2024, kami telah berkembang menjadi sebuah keluarga yang
+               solid dengan 36 anggota yang memiliki passion yang sama di dunia teknologi.</p>
+        </div>
+    </section>
+
+                <!-- Statistik/Icon -->
+    <section class="stats-mini">
+    <div class="container">
+        <div class="stats-row">
+            <div class="stat-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <span class="counter" data-target="36">0</span>
+                    <p>Anggota</p>
+                </div>
+            </div>
+            <div class="stat-box">
+                <i class="fas fa-project-diagram"></i>
+                <div>
+                    <span class="counter" data-target="50">0</span>+
+                    <p>Materi</p>
+                </div>
+            </div>
+            <div class="stat-box">
+                <i class="fas fa-trophy"></i>
+                <div>
+                    <span class="counter" data-target="15">0</span>
+                    <p>Prestasi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+               <!-- Struktur -->
+    <section id="struktur" class="content-section bg-light">
+    <div class="container">
+        <h2>Struktur Kelas</h2>
+        <div class="underline"></div>
+        <div class="grid-container">
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets/anggota/wali-kelas.jpg" alt="Wali Kelas">
+                </div>
+                <h3>Wali Kelas</h3>
+                <p>Arif Musthofa S.kom</p>
+            </div>
+
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets//anggota/10.JPG" alt="Ketua Kelas">
+                </div>
+                <h3>Ketua Kelas</h3>
+                <p>M. Rizzal Abidin</p>
+            </div>
+
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets/anggota/11.JPG" alt="Wakil Kelas">
+                </div>
+                <h3>Wakil Ketua</h3>
+                <p>Muhammad Zaki</p>
+            </div>
+
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets/anggota/6.JPG" alt="Sekertaris">
+                </div>
+                <h3>Sekertaris 1</h3>
+                <p>M Zahwa Pramita A</p>
+            </div>
+
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets/anggota/36.JPG" alt="Sekertaris">
+                </div>
+                <h3>Sekertaris 2</h3>
+                <p>Zumrotul Khumairoh</p>
+            </div>
+
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets/anggota/19.JPG" alt="Bendahara">
+                </div>
+                <h3>Bendahara 1</h3>
+                <p>Riris Dwi Rahmawati</p>
+            </div>
+
+            <div class="card">
+                <div class="member-photo">
+                    <img src="assets/anggota/21.JPG" alt="Bendahara">
+                </div>
+                <h3>Bendahara 2</h3>
+                <p>Rose Marie Yayan L</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+            <!-- Album Kegiatan -->
+    <section id="album" class="content-section">
+    <div class="container">
+        <h2>Album Kegiatan</h2>
+        <div class="underline"></div>
+        <div class="album-grid">
+            <div class="album-item">
+                <img src="assets/album/K1.jpeg" alt="Kegiatan 1" data-description="Mpls Kami Waktu Masih Kelas 10.">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K2.jpeg" alt="Kegiatan 2" data-description="Memperingati Hari Pramuka Waktu Masih Kelas 10.">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K3.jpeg" alt="Kegiatan 3" data-description="Memperingati Hari Kemerdekaan 17 Agustus.">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K4.jpeg" alt="Kegiatan 4" data-description="Kami Memperingati Maulid Nabi 1447 H.">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K5.jpeg" alt="Kegiatan 5" data-description="Mengikuti Kegiatan Pemberangkatan PKL">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K6.jpeg" alt="Kegiatan 6" data-description="Kumpul Bareng Waktu Malam Tahun Baru 2025-2026.">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K7.jpeg" alt="Kegiatan 7" data-description="Memperingati Isra Mi`raj Nabi Muhammad SAW.">
+            </div>
+            <div class="album-item">
+                <img src="assets/album/K8.jpeg" alt="Kegiatan 8" data-description="Kami Menjadi Petugas Upacara Hari Senin Pada Tanggal 26/01/2026.">
+            </div>
+        </div>
+    </div>
+    </section>
+
+                <!-- Anggota Kelas -->
+    <section id="anggota" class="content-section bg-light">
+    <div class="container">
+        <h2>Anggota Kelas</h2>
+        <div class="underline"></div>
+        
+        <div class="grid-anggota">
+            
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/1.jpg" alt="Ghea">
+                </div>
+                <h4>Laudia Ghea S</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/2.jpg" alt="Bella">
+                </div>
+                <h4>L Putri Syabella</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/3.jpg" alt="Lisa">
+                </div>
+                <h4>Lisa Eka Fitriya</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/4.jpg" alt="Lutfi">
+                </div>
+                <h4>Lutfi Anizatul A</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/5.jpg" alt="Idris">
+                </div>
+                <h4>Maulana Idris</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/6.jpg" alt="Zahwa">
+                </div>
+                <h4>M Zahwa Pramita A</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/7.jpg" alt="Fadli">
+                </div>
+                <h4>M Esya Fadlli</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/8.jpg" alt="Fahril">
+                </div>
+                <h4>M Fakhril AL F</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/9.jpg" alt="Hilmi">
+                </div>
+                <h4>M Hilmi Alkhisan</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/10.jpg" alt="Abid">
+                </div>
+                <h4>M Rizzal Abidin</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/11.jpg" alt="Zaki">
+                </div>
+                <h4>Muhammad Zaki</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/12.jpg" alt="nadia">
+                </div>
+                <h4>Nadia Eka Suci P</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/13.jpg" alt="Nuna">
+                </div>
+                <h4>Nurul Maidatul N</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/14.jpg" alt="nazwa">
+                </div>
+                <h4>Nuurin Nazwa</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/15.jpg" alt="devi">
+                </div>
+                <h4>P Yulia Devi S</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/17.jpg" alt="reva">
+                </div>
+                <h4>Reva Eka Syahara A</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/18.jpg" alt="Revi">
+                </div>
+                <h4>Reviandra Wulandari</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/19.jpg" alt="Riris">
+                </div>
+                <h4>Riris Dwi Rahmawati</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/20.jpg" alt="Riska">
+                </div>
+                <h4>Riska Andin Marianti</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/21.jpg" alt="Rose">
+                </div>
+                <h4>Rose Marie Yayan L</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/22.jpg" alt="Sevilla">
+                </div>
+                <h4>Sevilla Meisya E</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/23.jpg" alt="Sevira">
+                </div>
+                <h4>Sevira Dwi Rahmadani</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/24.jpg" alt="Shafira">
+                </div>
+                <h4>Shafira Eka Salsabila</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/25.jpg" alt="mita">
+                </div>
+                <h4>Shelomita Cahya Fitri</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/26.jpg" alt="sifa">
+                </div>
+                <h4>Sifa Nuraini</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/27.jpg" alt="silvia">
+                </div>
+                <h4>Silvia Novi Nurul H</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/28.jpg" alt="Nia">
+                </div>
+                <h4>Slovenia Kanaya</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/29.jpg" alt="yuni">
+                </div>
+                <h4>Sri Wahyuni</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/30.jpg" alt="sabita">
+                </div>
+                <h4>Stabita Hilmi Hanifa</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/31.jpg" alt="valery">
+                </div>
+                <h4>Vallery Berliana Shesya A</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/32.jpg" alt="velen">
+                </div>
+                <h4>Vellend Dyah M</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/33.jpg" alt="linda">
+                </div>
+                <h4>Yolinda Apriana</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/34.jpg" alt="zahra">
+                </div>
+                <h4>Zahra Fania Salsabila</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/35.jpg" alt="aza">
+                </div>
+                <h4>Zannuba Arifah C</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/36.jpg" alt="mairoh">
+                </div>
+                <h4>Zumrotul Khumairoh</h4>
+            </div>
+
+            <div class="card-siswa">
+                <div class="foto-kotak">
+                    <img src="assets/anggota/K36.jpg" alt="rendi">
+                </div>
+                <h4>Farlan Rendy A</h4>
+            </div>
+
+            </div> 
+    </div>
+    </section>    
+
+               <!-- Footer -->
+    <footer id="footer">
+    <div class="container footer-content">
+        <div class="footer-info">
+            <h3>XI <span>RPL B</span></h3>
+            <p>Komunitas siswa Rekayasa Perangkat Lunak yang berdedikasi untuk masa depan teknologi.</p>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Tautan Cepat</h4>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#struktur">Struktur</a></li>
+                <li><a href="#album">Album</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Sosial Media Kami</h4>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/cyber.rpl?igsh=MWJtOHY0NzM0NHMzaA=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@cyber.rplbe?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 XI RPL B. All Rights Reserved.</p>
+    </div>
+    </footer>
+
+                <!-- Animasi Pada Kegiantan -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+                <!-- Fitur Scrolll -->
+    <button id="backToTop" title="Kembali ke atas">
+    <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
