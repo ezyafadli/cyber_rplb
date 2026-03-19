@@ -31,10 +31,17 @@ document.addEventListener('click', function(event) {
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        navbar.style.background = '#1a1a2e';
+        // Saat di-scroll ke bawah: Warna solid & blur
+        navbar.style.background = 'rgba(26, 26, 46, 0.95)'; 
+        navbar.style.backdropFilter = 'blur(10px)';
         navbar.style.padding = '0.5rem 0';
+        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.3)';
     } else {
+        // Saat kembali ke paling atas: Warna agak gelap transparan (bukan hilang total)
+        navbar.style.background = 'rgba(26, 26, 46, 0.6)'; 
+        navbar.style.backdropFilter = 'blur(5px)';
         navbar.style.padding = '1rem 0';
+        navbar.style.boxShadow = 'none';
     }
 });
 
