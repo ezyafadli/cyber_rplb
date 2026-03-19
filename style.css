@@ -575,3 +575,15 @@ footer {
     background-color: #1a1a2e;
     transform: scale(1.1);
 }
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #00d2ff;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none; /* Biar tetap bisa klik tombol di bawahnya */
+  z-index: 9999;
+  transition: transform 0.1s ease;
+  transform: translate(-50%, -50%);
+}
